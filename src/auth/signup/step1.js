@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { Picker } from "@react-native-community/picker";
-import { BackF, ImageF } from "../../../asstes/images";
+import { BackF, ImageF } from "../../../assets/images";
 
 class Step1 extends Component {
   constructor(props) {

@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { Icon } from "native-base";
-import { Back } from "../../asstes/images";
+import { Back } from "../../assets/images";
 import SideBar from "../sidebar";
 class Main extends Component {
   constructor(props) {

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { StyleSheet, Text, View, Image } from "react-native";
 import { Root } from "native-base";
-import { Logo } from "../../asstes/images";
+import { Logo } from "../../assets/images";
 class SplashScreen extends Component {
   constructor(props) {
     super(props);

@@ -13,7 +13,7 @@ import {
   GiftCard,
   Pay,
   PayPal,
-} from "../../../asstes/images";
+} from "../../../assets/images";
 import PaymentOptions from "./step2-1";
 import CreditCard from "./creditCard";
 class Step2 extends Component {

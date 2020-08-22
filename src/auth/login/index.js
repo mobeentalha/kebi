@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { Root } from "native-base";
-import { Back, ImageF } from "../../../asstes/images";
+import { Back, ImageF } from "../../../assets/images";
 class SignIn extends Component {
   constructor(props) {
     super(props);

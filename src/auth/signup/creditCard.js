@@ -13,7 +13,7 @@ import {
   GiftCard,
   Pay,
   PayPal,
-} from "../../../asstes/images";
+} from "../../../assets/images";
 import { Icon, Right } from "native-base";
 class CreditCard extends Component {
   constructor(props) {
