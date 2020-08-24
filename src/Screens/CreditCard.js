@@ -14,13 +14,13 @@ import { BackF, ImageF } from "../../assets/images";
 
 class CreaditCard extends Component {
   static navigationOptions = {
-    drawerLabel: "Home",
-    drawerIcon: ({ tintColor }) => (
-      <Image
-        source={ImageF}
-        style={[{ height: 20, width: 10 }, { tintColor: "#fff" }]}
-      />
-    ),
+    drawerLabel: "Credit Card",
+    // drawerIcon: ({ tintColor }) => (
+    //   <Image
+    //     source={ImageF}
+    //     style={[{ height: 20, width: 10 }, { tintColor: "#fff" }]}
+    //   />
+    // ),
   };
   constructor(props) {
     super(props);
