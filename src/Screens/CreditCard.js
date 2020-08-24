@@ -124,106 +124,26 @@ class CreaditCard extends Component {
                   style={{
                     flexDirection: "row",
                     justifyContent: "space-evenly",
-                    marginTop: "5%",
                   }}
                 >
-                  <View
-                    style={{
-                      flex: 1,
-                      borderColor: "#5b82e9",
-                      borderWidth: 1,
-                      borderRadius: 10,
-                      marginHorizontal: 4,
-                    }}
-                  >
-                    <Picker
-                      style={{ color: "#5b82e9" }}
-                      selectedValue={this.state.day}
-                      onValueChange={(itemValue) => {
-                        this.setState({
-                          day: itemValue,
-                        });
-                      }}
-                    >
-                      <Picker.Item label={"Day"} value={"Day"} />
-
-                      {this.state.days.length != 0
-                        ? this.state.days.map((item) => (
-                            <Picker.Item
-                              key={item.value}
-                              label={item.label}
-                              value={item.value}
-                            />
-                          ))
-                        : null}
-                    </Picker>
-                  </View>
-
-                  <View
-                    style={{
-                      flex: 1,
-
-                      borderColor: "#5b82e9",
-                      borderWidth: 1,
-                      borderRadius: 10,
-                      marginHorizontal: 4,
-                    }}
-                  >
-                    <Picker
-                      style={{ color: "#5b82e9" }}
-                      selectedValue={this.state.month}
-                      onValueChange={(itemValue) => {
-                        this.setState({
-                          month: itemValue,
-                        });
-                      }}
-                    >
-                      <Picker.Item label={"Month"} value={"Month"} />
-
-                      {this.state.months.length != 0
-                        ? this.state.months.map((item) => (
-                            <Picker.Item
-                              key={item.value}
-                              label={item.label}
-                              value={item.value}
-                            />
-                          ))
-                        : null}
-                    </Picker>
-                  </View>
-
-                  <View
-                    style={{
-                      flex: 1,
-
-                      borderColor: "#5b82e9",
-                      borderWidth: 1,
-                      borderRadius: 10,
-                      marginHorizontal: 4,
-                    }}
-                  >
-                    <Picker
-                      style={{ color: "#5b82e9" }}
-                      selectedValue={this.state.year}
-                      onValueChange={(itemValue) => {
-                        this.setState({
-                          year: itemValue,
-                        });
-                      }}
-                    >
-                      <Picker.Item label={"Year"} value={"Year"} />
-
-                      {this.state.years.length != 0
-                        ? this.state.years.map((item) => (
-                            <Picker.Item
-                              key={item.value}
-                              label={item.label}
-                              value={item.value}
-                            />
-                          ))
-                        : null}
-                    </Picker>
-                  </View>
+                  <TextInput
+                    keyboardType="number-pad"
+                    placeholder="Card Title"
+                    placeholderTextColor="#5b82e9"
+                    style={styles.input}
+                  />
+                  <TextInput
+                    keyboardType="number-pad"
+                    placeholder="Card Title"
+                    placeholderTextColor="#5b82e9"
+                    style={styles.input}
+                  />
+                  <TextInput
+                    keyboardType="number-pad"
+                    placeholder="Card Title"
+                    placeholderTextColor="#5b82e9"
+                    style={styles.input}
+                  />
                 </View>
                 <View style={{ alignItems: "center", marginTop: "5%" }}>
                   <TouchableOpacity
@@ -296,7 +216,9 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
     // height: "8%",
     // width: "80%",
+    flex: 1,
     marginTop: "5%",
+    marginHorizontal: 4,
   },
   activeText: {
     color: "#4f93e6",

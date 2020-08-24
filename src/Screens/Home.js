@@ -56,7 +56,7 @@ class CreaditCard extends Component {
                     borderRadius: 20,
                   }}
                 >
-                  <Text style={{ fontFamily: "Bahnschrift-bold" }}>
+                  <Text style={{ fontFamily: "Bahnschrift-light" }}>
                     Service 1
                   </Text>
                 </TouchableOpacity>

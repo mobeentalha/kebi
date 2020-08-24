@@ -65,6 +65,7 @@ import { createDrawerNavigator, DrawerItems } from "react-navigation-drawer";
 import CreditCard from "./Screens/CreditCard";
 import Home from "./Screens/Home";
 import ServiceDetails from "./Screens/ServiceDetails";
+import Location from "./Screens/Location";
 
 import LoginScreen from "./auth/login";
 import SignUpScreen from "./auth/signup";
@@ -101,6 +102,9 @@ const AppStack = createDrawerNavigator(
     },
     ServiceDetails: {
       screen: ServiceDetails,
+    },
+    Location: {
+      screen: Location,
     },
   },
   {
