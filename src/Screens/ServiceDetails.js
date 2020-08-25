@@ -7,6 +7,7 @@ import {
   Image,
   ScrollView,
   TouchableOpacity,
+  ImageBackground,
   Dimensions,
 } from "react-native";
 import DropDownPicker from "react-native-dropdown-picker";
@@ -35,7 +36,17 @@ class CreaditCard extends Component {
       <View style={styles.container}>
         <View style={styles.image}>
           <View style={styles.bar}>
-            <Text style={styles.HeadingText}> Service Details </Text>
+            <ImageBackground
+              style={{
+                width: "100%",
+                height: "100%",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+              source={require("../../assets/images/top.jpg")}
+            >
+              <Text style={styles.HeadingText}> Service Details </Text>
+            </ImageBackground>
           </View>
           <View style={{ flex: 1 }}>
             <ScrollView

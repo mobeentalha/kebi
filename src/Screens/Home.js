@@ -8,6 +8,7 @@ import {
   ScrollView,
   TouchableOpacity,
   Dimensions,
+  ImageBackground,
 } from "react-native";
 import DropDownPicker from "react-native-dropdown-picker";
 import { Picker } from "@react-native-community/picker";
@@ -35,7 +36,17 @@ class CreaditCard extends Component {
       <View style={styles.container}>
         <View style={styles.image}>
           <View style={styles.bar}>
-            <Text style={styles.HeadingText}> Home </Text>
+            <ImageBackground
+              style={{
+                width: "100%",
+                height: "100%",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+              source={require("../../assets/images/top.jpg")}
+            >
+              <Text style={styles.HeadingText}> Home </Text>
+            </ImageBackground>
           </View>
           <View style={{ flex: 1 }}>
             <ScrollView
@@ -52,31 +63,57 @@ class CreaditCard extends Component {
                   style={{
                     marginTop: 20,
                     padding: 24,
-                    backgroundColor: "#2cc8de",
+                    // backgroundColor: "#2cc8de",
                     borderRadius: 20,
                   }}
                 >
-                  <Text>Service 1</Text>
+                  <Image
+                    resizeMode="cover"
+                    style={{ height: 130, width: 130 }}
+                    source={require("../../assets/images/icons/L3dp2.png")}
+                  />
                 </TouchableOpacity>
                 <TouchableOpacity
                   style={{
                     marginTop: 20,
                     padding: 24,
-                    backgroundColor: "#2cc8de",
+                    // backgroundColor: "#2cc8de",
                     borderRadius: 20,
                   }}
                 >
-                  <Text>Service 1</Text>
+                  <Image
+                    resizeMode="cover"
+                    style={{ height: 130, width: 130 }}
+                    source={require("../../assets/images/icons/Lawn3dp-1.png")}
+                  />
                 </TouchableOpacity>
                 <TouchableOpacity
                   style={{
                     marginTop: 20,
                     padding: 24,
-                    backgroundColor: "#2cc8de",
+                    // backgroundColor: "#2cc8de",
                     borderRadius: 20,
                   }}
                 >
-                  <Text>Service 1</Text>
+                  <Image
+                    resizeMode="cover"
+                    style={{ height: 130, width: 130 }}
+                    source={require("../../assets/images/icons/maid3dp-11.png")}
+                  />
+                </TouchableOpacity>
+                <TouchableOpacity
+                  style={{
+                    marginTop: 20,
+                    padding: 24,
+                    // backgroundColor: "#2cc8de",
+                    borderRadius: 20,
+                  }}
+                >
+                  <Image
+                    resizeMode="cover"
+                    style={{ height: 130, width: 130 }}
+                    source={require("../../assets/images/icons/Tool3dp-1.png")}
+                  />
                 </TouchableOpacity>
               </View>
 
