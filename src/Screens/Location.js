@@ -39,7 +39,7 @@ class Location extends Component {
             <Text style={styles.HeadingText}> Location </Text>
           </View>
           <View style={{ flex: 1 }}>
-            <View style={{ flex: 0.8, backgroundColor: "red" }}>
+            <View style={{ flex: 0.8 }}>
               <MapView
                 provider={PROVIDER_GOOGLE}
                 region={{
@@ -74,7 +74,7 @@ class Location extends Component {
               }}
             >
               <Image
-                style={{ width: "25%", height: "70%", alignSelf: "center" }}
+                style={{ width: "25%", height: "60%", alignSelf: "center" }}
                 source={ImageF}
               />
             </View>
@@ -90,8 +90,10 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   bar: {
-    marginTop: "15%",
+    flex: 0.1,
     backgroundColor: "#2cc8de",
+    alignItems: "center",
+    justifyContent: "center",
   },
   image: {
     // width: "100%",

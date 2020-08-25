@@ -56,148 +56,6 @@ class CreaditCard extends Component {
                     borderRadius: 20,
                   }}
                 >
-                  <Text style={{ fontFamily: "Bahnschrift-light" }}>
-                    Service 1
-                  </Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={{
-                    marginTop: 20,
-                    padding: 24,
-                    backgroundColor: "#2cc8de",
-                    borderRadius: 20,
-                  }}
-                >
-                  <Text style={{ fontFamily: "Roboto-Black" }}>Service 1</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={{
-                    marginTop: 20,
-                    padding: 24,
-                    backgroundColor: "#2cc8de",
-                    borderRadius: 20,
-                  }}
-                >
-                  <Text>Service 1</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={{
-                    marginTop: 20,
-                    padding: 24,
-                    backgroundColor: "#2cc8de",
-                    borderRadius: 20,
-                  }}
-                >
-                  <Text>Service 1</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={{
-                    marginTop: 20,
-                    padding: 24,
-                    backgroundColor: "#2cc8de",
-                    borderRadius: 20,
-                  }}
-                >
-                  <Text>Service 1</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={{
-                    marginTop: 20,
-                    padding: 24,
-                    backgroundColor: "#2cc8de",
-                    borderRadius: 20,
-                  }}
-                >
-                  <Text>Service 1</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={{
-                    marginTop: 20,
-                    padding: 24,
-                    backgroundColor: "#2cc8de",
-                    borderRadius: 20,
-                  }}
-                >
-                  <Text>Service 1</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={{
-                    marginTop: 20,
-                    padding: 24,
-                    backgroundColor: "#2cc8de",
-                    borderRadius: 20,
-                  }}
-                >
-                  <Text>Service 1</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={{
-                    marginTop: 20,
-                    padding: 24,
-                    backgroundColor: "#2cc8de",
-                    borderRadius: 20,
-                  }}
-                >
-                  <Text>Service 1</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={{
-                    marginTop: 20,
-                    padding: 24,
-                    backgroundColor: "#2cc8de",
-                    borderRadius: 20,
-                  }}
-                >
-                  <Text>Service 1</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={{
-                    marginTop: 20,
-                    padding: 24,
-                    backgroundColor: "#2cc8de",
-                    borderRadius: 20,
-                  }}
-                >
-                  <Text>Service 1</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={{
-                    marginTop: 20,
-                    padding: 24,
-                    backgroundColor: "#2cc8de",
-                    borderRadius: 20,
-                  }}
-                >
-                  <Text>Service 1</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={{
-                    marginTop: 20,
-                    padding: 24,
-                    backgroundColor: "#2cc8de",
-                    borderRadius: 20,
-                  }}
-                >
-                  <Text>Service 1</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={{
-                    marginTop: 20,
-                    padding: 24,
-                    backgroundColor: "#2cc8de",
-                    borderRadius: 20,
-                  }}
-                >
-                  <Text>Service 1</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={{
-                    marginTop: 20,
-                    padding: 24,
-                    backgroundColor: "#2cc8de",
-                    borderRadius: 20,
-                  }}
-                >
                   <Text>Service 1</Text>
                 </TouchableOpacity>
                 <TouchableOpacity
@@ -253,8 +111,10 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   bar: {
-    marginTop: "15%",
+    flex: 0.1,
     backgroundColor: "#2cc8de",
+    alignItems: "center",
+    justifyContent: "center",
   },
   image: {
     // width: "100%",

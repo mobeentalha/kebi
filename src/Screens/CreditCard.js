@@ -128,19 +128,19 @@ class CreaditCard extends Component {
                 >
                   <TextInput
                     keyboardType="number-pad"
-                    placeholder="Card Title"
+                    // placeholder="Card Title"
                     placeholderTextColor="#5b82e9"
                     style={styles.input}
                   />
                   <TextInput
                     keyboardType="number-pad"
-                    placeholder="Card Title"
+                    // placeholder="Card Title"
                     placeholderTextColor="#5b82e9"
                     style={styles.input}
                   />
                   <TextInput
                     keyboardType="number-pad"
-                    placeholder="Card Title"
+                    // placeholder="Card Title"
                     placeholderTextColor="#5b82e9"
                     style={styles.input}
                   />
@@ -192,8 +192,11 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   bar: {
-    marginTop: "15%",
+    // marginTop: "15%",
+    flex: 0.1,
     backgroundColor: "#2cc8de",
+    alignItems: "center",
+    justifyContent: "center",
   },
   image: {
     // width: "100%",
