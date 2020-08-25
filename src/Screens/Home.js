@@ -41,11 +41,31 @@ class CreaditCard extends Component {
                 width: "100%",
                 height: "100%",
                 justifyContent: "center",
-                alignItems: "center",
+                // alignItems: "center",
               }}
               source={require("../../assets/images/top.jpg")}
             >
-              <Text style={styles.HeadingText}> Home </Text>
+              <View
+                style={{
+                  flex: 1,
+                  flexDirection: "row",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  paddingHorizontal: 16,
+                }}
+              >
+                <TouchableOpacity
+                  onPress={() => this.props.navigation.openDrawer()}
+                >
+                  <Image
+                    resizeMode="cover"
+                    style={{ height: 40, width: 40 }}
+                    source={require("../../assets/images/icons/menu.png")}
+                  />
+                </TouchableOpacity>
+                <Text style={styles.HeadingText}> Home </Text>
+                <View style={{ flex: 0.2 }}></View>
+              </View>
             </ImageBackground>
           </View>
           <View style={{ flex: 1 }}>
